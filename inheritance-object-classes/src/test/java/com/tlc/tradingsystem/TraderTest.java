@@ -1,8 +1,8 @@
 package com.tlc.tradingsystem;
 
-import com.tlc.tradingsystem.Symbol;
 import com.tlc.tradingsystem.Trader;
 import com.tlc.tradingsystem.trade.FundTrade;
+import com.tlc.tradingsystem.trade.Symbol;
 import com.tlc.tradingsystem.trade.Trade;
 
 import org.junit.jupiter.api.Assertions;

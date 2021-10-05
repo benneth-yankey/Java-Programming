@@ -1,6 +1,5 @@
 package com.tlc.tradingsystem;
 
-import com.tlc.tradingsystem.Symbol;
 import com.tlc.tradingsystem.trade.*;
 
 import org.junit.jupiter.api.Assertions;

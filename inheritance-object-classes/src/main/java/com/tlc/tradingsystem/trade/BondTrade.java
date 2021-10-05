@@ -1,9 +1,7 @@
 package com.tlc.tradingsystem.trade;
 
-import com.tlc.tradingsystem.Symbol;
-
 public class BondTrade extends Trade {
-    private double dividend;
+    private final double dividend;
 
     public BondTrade(String id, Symbol symbol, int quantity, double dividend) {
         super(id, symbol, quantity);
@@ -20,7 +18,8 @@ public class BondTrade extends Trade {
     }
 
     @Override
-    void calcDividend() {
-        // TODO Auto-generated method stub
+    double calcDividend() {
+        setPrice(getPrice() + getDividend());
+        return getPrice();
     }
 }
